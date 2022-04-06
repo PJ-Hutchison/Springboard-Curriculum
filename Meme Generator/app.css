@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(49, 49, 49);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 75px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+}
+
+#url {
+    width: 90%;
+    float: right;
+}
+
+#topText {
+    width: 90%;
+    float: right;
+}
+
+#bottomText {
+    width: 90%;
+    float: right;
+}
+
+#addMeme{
+    width: 10%;
+    float: right;
+    background-color: orange;
+    color: black;
+    font-size: large;
+}
+
+p {
+    color: white;
+    font-size: large;
+}
+
+div {
+    margin: auto;
+}
+
+.meme {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: solid;
+    border-color: white;
+}
+
+.topText {
+    white-space: pre-wrap;
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    -webkit-text-stroke: 2px black;
+}
+
+.bottomText {
+    white-space: pre-wrap;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    -webkit-text-stroke: 2px black;
+}
+.meme img {
+    max-width: 100%;
+}
+.deleteBtn {
+    position: absolute;
+    bottom: 0;
+}
