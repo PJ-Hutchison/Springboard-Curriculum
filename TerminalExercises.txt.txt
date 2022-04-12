@@ -1,0 +1,14 @@
+1. The man command opens up the manual for a specified command. You can scroll down with Enter and exit with Q.
+2. The -l flag uses a long listing format and the -a flag shows entires that are normally hidden by starting with a .
+3. You can jump between words with the alt and arrow keys.
+4. Ctrl + E takes you to the end of the line in a terminal.
+5. Ctrl + A takes you to the beginning of the line in a terminal.
+6. You can delete the word the cursor is on with Ctrl + W.
+7. A terminal is a program that runs the shell and allows us to enter commands, while the shell is what interprets the commands.
+8. An absolute path shows all the details to locate files/folders, starting from the root element.
+9. A relative path locates the file from the current directory.
+10. A flag is used within a command to control specific permissions. 
+10.) 1. ls -a Will show the hidden files
+10.) 2. rm -rf Allows you to remove directories with other files/folders within them.
+10.) 3. cp -r Allows you to copy Folders and the information within them.
+11. The r and f flags coupled with the rm command allows you to remove directories with files inside.
