@@ -1,0 +1,5 @@
+1. git checkout -b <NewBranchName>
+2. A fast forward merge is when no changes have been made to the master branch
+3. git checkout <BranchName>
+4. git branch -d or git branch -D
+5. Merge conflicts happen when two branches have med edits to the same file, you must manually decide which one to go with.
